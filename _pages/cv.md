@@ -11,54 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Master's Degree in Data Science and AI, Chalmers University of Technology, **2023**
+  * Thesis: ["Machine Learning for Predicting Targeted Protein Degradation"](https://github.com/ribesstefano/ml-for-protacs)
+* Swedish Licentiate of Technology, Chalmers University of Technology **2021**
+  * Thesis: ["Multi-LSTM Acceleration and CNN Fault Tolerance"](https://research.chalmers.se/publication/522996/file/522996_Fulltext.pdf)
+* Master's Degree in Computer Engineering Embedded Systems, Polytechnic University of Turin, **2016**
+* Bachelor's Degree in Computer Engineering, University of Modena and Reggio Emilia,  **2014**
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* March 2024 - Present: **PhD Student**, [AI Laboratory for Biomolecular Engineering](https://ailab.bio/), Chalmers University of Technology.
+  * Researching in AI-driven molecular engineering with applications in drug discovery.
+* Fall 2023: **Research Student**, [AI Laboratory for Biomolecular Engineering](https://ailab.bio/), Chalmers University of Technology.
+  * Continuing master thesis work on predicting protein-ligand activity using deep learning models.
+* Spring 2023: **Master Thesis Intern**, AstraZeneca, Gothenburg
+  * Worked on thesis titled ["Machine Learning for Predicting Targeted Protein Degradation"](https://github.com/ribesstefano/ml-for-protacs).
+* 2020 - 2022: **Hardware Engineer**, Cobham Gaisler, Gothenburg
+  * Digital designer writing and testing RTL modules for RISC-V based processors.
+* 2016 - 2020: **Teaching Assistant**, Chalmers University of Technology
+  * Taught VHDL and assisted in courses related to signal processing and computer architecture.
+* 2014: **Intern**, QUIX Software Solutions & Consulting, Italy
+  * Software development focusing on public sector service management.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep learning and high performance computing
+* Proficient in Git and scripting in both Linux and Windows environments
+* Programming: Python, C, C++, CUDA, OpenCL
 
-Publications
+<!-- Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+  * "Mapping Multiple LSTM models on FPGAs", Int'l Conf. on Field-Programmable Technology (FPT), December 2020.
+  * "De-RISC: A Complete RISC-V Based Space-Grade Platform", DATE 2022. -->
+
+Languages
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* English: Fluent (IELTS 6.5, 2015)
+* Italian: Mother Tongue
+
+Interests and Activities
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Sketching, cooking, and playing football as a goalkeeper.
