@@ -122,7 +122,7 @@ In particular, it can be observed that the fastest SVDn-HW design is $$1.7\times
 The code for this project is available on [GitHub](https://github.com/ribesstefano/Mapping-Multiple-LSTM-Models-on-FPGAs).
 
 <!-- An open-access version of the paper can be downloaded <a href="files/Mapping_Multiple_LSTM_models_on_FPGAs.pdf" download>here</a>. -->
-An open-access version of the paper can be downloaded [here](files/Mapping_Multiple_LSTM_models_on_FPGAs.pdf).
+An open-access version of the paper can be downloaded [here]({{ site.baseurl }}/files/Mapping_Multiple_LSTM_models_on_FPGAs.pdf).
 
 <!--
 If you plan on using our work, please cite it as:

@@ -7,11 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<a href="files/cv_stefano_ribes.pdf" download>Download my CV</a> (Last updated: November 6, 2024)
-
-[Download my CV](files/cv_stefano_ribes.pdf) (Last updated: November 6, 2024)
-
-[Download my CV]({{ site.baseurl }}{{ files/cv_stefano_ribes.pdf %}}) (Last updated: November 6, 2024)
+[Download my CV]({{ site.baseurl }}/files/cv_stefano_ribes.pdf) (Last updated: November 6, 2024)
 
 Education
 ======
