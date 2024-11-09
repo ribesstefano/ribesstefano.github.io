@@ -7,11 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at Chalmers University of Technology, where I explore the use of artificial intelligence in drug discovery and molecular engineering. My academic journey has taken me from a bachelor's in computer engineering to advanced studies in data science and AI. Along the way, I've gained experience in both academia and industry, including an intership at AstraZeneca. Passionate about merging technology with life sciences, I'm always open to discussing new ideas and collaborations.
+I'm a [PhD student](https://www.chalmers.se/en/persons/ribes/) in the [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio) at Chalmers University of Technology, in Gothenburg, Sweden, where I explore the use of artificial intelligence in drug discovery and molecular engineering. My academic journey has taken me from a bachelor's in computer engineering to advanced studies in data science and AI. Along the way, I've gained experience in both academia and industry, including an intership at AstraZeneca.
 
-In my free time, I enjoy sketching, cooking, and playing football.
+I'm passionate about merging technology with life sciences, and I'm always open to discussing new ideas and collaborations! Feel free to reach out if you'd like to connect 🚀
 
-[Here is how to pronunce my name.](https://www.youtube.com/watch?v=EL83d7oe_Ks&ab_channel=PronounceNames)
+## Research Interests
+
+My research interests lie at the intersection of artificial intelligence, computational chemistry, and drug discovery. I'm particularly interested in the development of machine learning models for predicting the activity of small molecules in biological systems, with a focus on targeted protein degradation and PROTACs. I'm also interested in the application of Neurosymbolic AI techniques for discovering new chemical reactions within the context of retrosynthesis prediction.
+
+Please check out my [publications](/publications) for more details on my research projects.
+
+## More details on my career path...
+
+Before AI "was cool", I focused my studies on embedded systems, with a focus on computer architecture design and high performance computing. I've always been fascinated by both hardware and software, and I've worked on projects ranging from developing [hardware IPs](https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core_) for RISC-V processors to [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)-based accelerators in [HLS](https://en.wikipedia.org/wiki/High-level_synthesis) for machine learning.
+
+After working two years in the aerospace sector at [Gaisler](https://www.gaisler.com), I decided to pivot my career towards AI and computational chemistry instead.
+Thanks to an intership opportunity at AstraZeneca in Gothenburg, that introduced me to my current PhD supervisor, [Rocío Mercado](https://rociomer.github.io), I had the chance to work on a project that combined my passion for AI with my interest in drug discovery. This experience was a turning point for me and made me pursue a PhD in the field of AI-driven molecular engineering.
+
+Please check my [CV](/cv) for more details on my education and work experience.
+
+## Miscellanea
+
+- I love cooking and trying new recipes, sometimes in a very "nerdy" way (for example, I really love this [book series](https://www.gribaudo.it/opera/la-scienza-delle-verdure/) 🥦)
+- If you don't speak Italian, somehow my name is very hard to pronounce right... so [here is how to pronunce it correctly!](https://www.youtube.com/watch?v=EL83d7oe_Ks&ab_channel=PronounceNames)
+- For personal reasons, I happen to often travel to Leiden, in the Netherlands. If you're around, we can also meet there in the lovely city center! (have you ever tried kibbeling? 🐟)
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 

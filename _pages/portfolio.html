@@ -1,14 +1,15 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Code Portfolio - Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+More projects will be added in the near future, stay tuned! If you can't wait, please refer to my <a href="https://github.com/ribesstefano">GitHub</a> for all of my projects.
 
-{% for post in site.portfolio %}
+{% for post in site.portfolio reversed %}
   {% include archive-single.html %}
 {% endfor %}
 

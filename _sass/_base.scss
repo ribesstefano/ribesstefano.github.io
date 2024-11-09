@@ -215,6 +215,7 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center;
     }
   }
 
@@ -228,6 +229,7 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center;
     }
   }
 }
@@ -235,10 +237,12 @@ figure {
 /* Figure captions */
 
 figcaption {
+  margin-top: 1.5em; /* Optional: Add some space above the caption */
   margin-bottom: 0.5em;
   color: mix(#fff, $text-color, 25%);
   font-family: $caption-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-6; // Original: 6
+  text-align: center;
 
   a {
     color: inherit;
