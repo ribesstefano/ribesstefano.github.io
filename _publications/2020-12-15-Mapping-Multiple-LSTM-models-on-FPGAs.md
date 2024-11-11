@@ -1,5 +1,5 @@
 ---
-title: "Mapping Multiple LSTM Models on FPGAs"
+title: Mapping Multiple LSTM Models on FPGAs
 collection: publications
 permalink: /publications/2020-12-15-Mapping-Multiple-LSTM-models-on-FPGAs
 date: 2020-12-15

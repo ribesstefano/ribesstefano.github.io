@@ -1,10 +1,12 @@
 ---
-title: "Modeling PROTAC Degradation Activity with Machine Learning"
+title: Modeling PROTAC Degradation Activity with Machine Learning
 collection: publications
 permalink: /publication/2024-08-24-Modeling-PROTAC-degradation-activity-with-machine-learning
 date: 2024-08-24
 authors: Stefano Ribes, Eva Nittinger, Christian Tyrchan, Rocío Mercado
 venue: Artificial Intelligence in the Life Sciences
+volume: 6
+year: 2024
 doi: 10.1016/j.ailsci.2024.100104
 citation: Ribes, S., Nittinger, E., Tyrchan, C., Mercado, R., <i>"Modeling PROTAC degradation activity with machine learning"</i>, Artificial Intelligence in the Life Sciences 2024
 paperurl: https://www.sciencedirect.com/science/article/pii/S2667318524000217?via%3Dihub

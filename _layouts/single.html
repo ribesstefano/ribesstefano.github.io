@@ -45,13 +45,54 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        <!-- Add the banners here -->
+        {% if page.github or page.colab or page.spaces %}
+          <div class="publication-banners">
+            {% if page.colab %}
+              <a href="{{ page.colab }}" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+            {% endif %}
+            {% if page.github %}
+              <a href="{{ page.github }}" target="_blank"><img src="https://img.shields.io/badge/Open%20in-GitHub-black?logo=github" alt="Open in GitHub"/></a>
+            {% endif %}
+            {% if page.spaces %}
+              <a href="{{ page.spaces }}"><img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg" alt="Open in Spaces"/></a>
+            {% endif %}
+          </div>
+          <!-- Add a short space below here -->
+          <br>
+        {% endif %}
+
         {{ content }}
 
-        {% if page.citation and page.paperurl %}
-          <!-- <p style="font-size: smaller">Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p> -->
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }} </br></br><a href="{{ page.paperurl }}"><u>Link</u></a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} </p>
+        {% endif %}
+
+        <!-- Add the LaTeX citation snippet here -->
+        <!-- TODO: Work in progress, still not working... -->
+        <!-- {% if page.title and page.authors and page.venue and page.year %}
+        <h3>Cite this paper in LaTeX:</h3>
+        <pre>
+        {% raw %}
+        @article{{ page.authors | split: ", " | first | replace: " ", "_" }}_{{ page.year }},
+        title={{ {{ page.title }} }},
+        {% if page.volume %}volume={{ {{ page.volume }} }}, {% endif %}
+        {% if page.ISSN %}ISSN={{ {{ page.ISSN }} }}, {% endif %}
+        {% if page.paperurl %}url={{ {{ page.paperurl }} }}, {% endif %}
+        {% if page.doi %}DOI={{ {{ page.doi }} }}, {% endif %}
+        journal={{ {{ page.venue }} }},
+        {% if page.publisher %}publisher={{ {{ page.publisher }} }}, {% endif %}
+        author={{ {{ page.authors | replace: ",", " and" }} }},
+        year={{ {{ page.year }} }},
+        {% if page.month %}month={{ {{ page.month | downcase }} }}, {% endif %}
+        {% if page.pages %}pages={{ {{ page.pages }} }}{% endif %}
+        }
+        {% endraw %}
+        </pre>
+        {% endif %} -->
+
+        {% if page.paperurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}"><u>Link to paper.</u></a></p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
@@ -64,7 +105,7 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      <!-- {% if page.share %}{% include social-share.html %}{% endif %} -->
 
       {% include post_pagination.html %}
     </div>

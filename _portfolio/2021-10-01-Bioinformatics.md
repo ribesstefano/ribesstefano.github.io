@@ -1,7 +1,8 @@
 ---
 title: "Bioinformatics Course"
-excerpt: "The solved course assignments can be found at this [repository](https://github.com/ribesstefano/chalmers_dit743_computational_methods_in_bioinformatics).<br/><br/><img src='/images/courses/Bioinfo_500x375.png'>"
+excerpt: "Implementing sequence alignment, domain assignment, main chain tracing, and steric overlaps detection.<br/><br/><img src='/images/courses/Bioinfo_500x375.png'>"
 collection: portfolio
+github: https://github.com/ribesstefano/chalmers_dit743_computational_methods_in_bioinformatics
 ---
 
 Assignments and exercises within the field of bioinformatics:

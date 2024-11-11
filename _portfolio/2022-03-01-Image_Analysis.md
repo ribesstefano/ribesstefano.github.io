@@ -1,7 +1,8 @@
 ---
 title: "Image Analysis Course"
-excerpt: "The solved course assignments can be found at this [repository](https://github.com/ribesstefano/chalmers_ssy098_image_analysis).<br/><br/><img src='/images/courses/Image_Analysis_500x300.png'>"
+excerpt: "MATLAB projects on SIFT, CNNs, image registration, and triangulation.<br/><br/><img src='/images/courses/Image_Analysis_500x300.png'>"
 collection: portfolio
+github: https://github.com/ribesstefano/chalmers_ssy098_image_analysis
 ---
 
 ### Lab 1: The SIFT Descriptor
