@@ -51,4 +51,4 @@ Languages
 
 Interests and Activities
 ======
-- Sketching, cooking, and playing football as a goalkeeper.
+- Sketching, cooking, and playing football as a goalkeeper (but don't ask me for my favorite team, I have no clue!)

@@ -17,7 +17,7 @@ My research interests lie at the intersection of artificial intelligence, comput
 
 Please check out my [publications](/publications) for more details on my research projects.
 
-## More details on my career path...
+## More Details On My Career Path...
 
 Before AI "was cool", I focused my studies on embedded systems, with a focus on computer architecture design and high performance computing. I've always been fascinated by both hardware and software, and I've worked on projects ranging from developing [hardware IPs](https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core_) for RISC-V processors to [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)-based accelerators in [HLS](https://en.wikipedia.org/wiki/High-level_synthesis) for machine learning.
 
