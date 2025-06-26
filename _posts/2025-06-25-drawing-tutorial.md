@@ -33,13 +33,54 @@ In general, as unit of measurement, use `pt` (points) for all drawings to ease c
 
 To determine the artoboard dimensions, check the LaTeX style (it can be in the main header, or in a separate class or style file) for the maxium image width, that usually is the same as the text width.
 
-Fonts: try to be consistent in every figure you make by setting the followings:
+Finally, remember that a figure might be placed in a single column or have multiple panels, so use rulers or guides to work on the right size and alignment of the arboard,_e.g._, in half of the text width for a single column figure.
+
+### Fonts
+
+Be consistent in every figure you make by setting the followings:
 
 - the same font used in the paper, _e.g._, `Sans Serif` or `Helvetica`
 - the font size, _e.g._, `11pt`
 - the font color, _e.g._, `#000000` (black)
 
-Finally, remember that a figure might be placed in a single column or have multiple panels, so use rulers or guides to work on the right size and alignment of the arboard,_e.g._, in half of the text width for a single column figure.
+I usually check the font used by checking the LaTeX style file (ChatGPT can help with this).
+If not available in my installed fonts, I download it and install it on my system.
+
+Downloaded fonts can be in `.otf` or `.ttf` format, and they can be installed on macOS by double-clicking the file and clicking "Install Font" in the Font Book app.
+
+Sometimes the font might not be available in the plotting library, even after installing it.
+In this case, one can use the `matplotlib.font_manager` module to set the font globally for all plots.
+Here's an example of how to do this with Matplotlib and Seaborn:
+
+```python
+import matplotlib.font_manager as fm
+from matplotlib import pyplot as plt
+import seaborn as sns
+
+fontsize = 10
+fontname = "Latin Modern Roman"  # Change this to the font you want to use
+
+# Set publication-like style with 11pt font
+sns.set_context("paper", font_scale=1/fontsize)
+sns.set_style("white")
+
+# Rebuild font cache (to be done only once after installing new fonts)
+# This will make the font available for Matplotlib, comment it out after the
+# first run, otherwise it will take a long time to run every time you start the
+# script.
+fm._load_fontmanager(try_read_cache=False)
+
+# Double check the font is available
+print([f.name for f in fm.fontManager.ttflist if fontname in f.name])
+print(fm.findfont(fontname))
+
+# Set global font settings for Matplotlib and Seaborn
+# NOTE: This must happen after changing global settings in seaborn
+plt.rcParams["font.family"] = fontname
+plt.rcParams["mathtext.fontset"] = "custom"
+plt.rcParams["mathtext.rm"] = fontname
+plt.rcParams["font.size"] = fontsize
+```
 
 ## Plotting with Matplotlib/Seaborn
 
