@@ -167,6 +167,8 @@ When exporting the final figure, use `File` -> `Export As...` and choose the des
 
 SVGs will be separately opened in Adobe Illustrator, and they allow for full editing of the vector graphics (_i.e._, you can every line, text, and shape).
 
+If an Ai file includes rasterized images, when exporting to PDF, in the `Compression` tab, untick the `Compress Text and Line Art` option to avoid rasterizing the text and lines, which can lead to loss of quality.
+
 ## Importing to LaTeX
 
 When importing figures into LaTeX, specify the width as a fraction of the text width, _e.g._, `\includegraphics[width=\textwidth]{figure.pdf}`. If eveything is done correctly, the figure should scale properly to fit the text width.
