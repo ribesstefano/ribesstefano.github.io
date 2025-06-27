@@ -1,5 +1,5 @@
 ---
-title: 'Notes on Making Drawings for Papers'
+title: 'Drawing for Publications'
 date: 2025-06-25
 permalink: /posts/2025/06/drawing-tutorial/
 tags:
@@ -39,7 +39,7 @@ Finally, remember that a figure might be placed in a single column or have multi
 
 Be consistent in every figure you make by setting the followings:
 
-- the same font used in the paper, _e.g._, `Sans Serif` or `Helvetica`
+- the same font, _e.g._, `Sans Serif` or `Helvetica`. NOTE: it can be different from the one used in the manuscript, but it should be consistent across all figures.
 - the font size, _e.g._, `11pt`
 - the font color, _e.g._, `#000000` (black)
 
