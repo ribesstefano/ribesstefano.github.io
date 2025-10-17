@@ -12,9 +12,13 @@ tags:
 
 This post describes how to run jobs on Alvis, the HPC cluster at Chalmers University of Technology, and how to run a Jupyter Notebooks from a container.
 
-There two main schools of thought on how to run jobs on Alvis: one using the `module` system and virtual environments and the other using containers.
+There two main schools of thought on how to run jobs on Alvis:
+
+- one using the `module` system and virtual environments
+- the other using containers.
 
 I reccommend using virtual environments and limit to only use pip-installed packages when possible, as it allows for easier sharing of code and environments with others, for example via `requirements.txt` files (`pip freeze > requirements.txt` to create it, and `pip install -r requirements.txt` to install the packages from it).
+
 Using containers allows for better local reproducibility and isolation of dependencies, but it might be more complex to set up initially and hard to share with others.
 I reccommend using containers when the code to run has complex dependencies that are hard to install via `pip` or `conda`, for example non-Python libraries or packages that require specific system configurations.
 
@@ -26,7 +30,9 @@ To create and use a virtual environment on Alvis with Python 3.11, first `ssh` a
 module load Python/3.11.3-GCCcore-12.3.0
 module load PyTorch/2.1.2-foss-2023a-CUDA-12.1.1
 
-# NOTE: If you try to run the following command without pre-loading the above modules, Alvis will complain and tell that python3 is not even an available command.
+# NOTE: If you try to run the following command without pre-loading the above
+# modules, Alvis will complain and tell that python3 is not even an available
+# command.
 python3 -m venv my-env-name
 ```
 
@@ -220,7 +226,8 @@ Example of usage: `./run_jupyter_in_apptainer.sh ./containers/container_file.sif
 
 It will output something like the following:
 
-```[ribes@alvis2-02 ~]$ ./run_jupyter_in_apptainer.sh ./containers/container_file.sif
+```
+[ribes@alvis2-02 ~]$ ./run_jupyter_in_apptainer.sh ./containers/container_file.sif
 [I 2025-03-27 09:21:33.125 ServerApp] jupyter_lsp | extension was successfully linked.
 [I 2025-03-27 09:21:33.129 ServerApp] jupyter_server_terminals | extension was successfully linked.
 [I 2025-03-27 09:21:33.133 ServerApp] jupyterlab | extension was successfully linked.

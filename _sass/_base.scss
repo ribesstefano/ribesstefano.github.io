@@ -317,3 +317,71 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+// ...existing code...
+
+/* ==========================================================================
+   Copy-Code
+   ========================================================================== */
+
+/* Hide default code action buttons */
+.code-action,
+.highlight-copy-btn,
+button[title*="Copy code"],
+.highlight-toolbar {
+  display: none !important;
+}
+
+.code-block-wrapper {
+  position: relative;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+  padding: 0.4em;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.copy-code-button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  opacity: 1;
+}
+
+.copy-code-button.copied {
+  background-color: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+  opacity: 1;
+}
+
+.copy-code-button.copied svg {
+  stroke: white;
+}
+
+.copy-code-button.error {
+  background-color: #f44336;
+  color: white;
+  border-color: #f44336;
+}
+
+.copy-code-button:active {
+  transform: scale(0.95);
+}
+
+.copy-code-button svg {
+  display: block;
+  stroke: #333;
+}

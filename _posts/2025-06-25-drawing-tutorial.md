@@ -13,7 +13,9 @@ tags:
   - figures
 ---
 
-This blogpost provides guidelines and best practices for creating figures, diagrams, and plots for scientific papers, particularly in the context of cheminformatics and related fields. The goal is to ensure that all figures are clear, consistent, and suitable for publication. This is mainly a collection of personal notes coming from experience with various tools and formats, and it is not exhaustive nor a definitive guide (I'm still learning myself!).
+This blogpost provides guidelines and best practices for creating figures, diagrams, and plots for scientific papers, particularly in the context of cheminformatics and related fields.
+
+The goal is to ensure that all figures are clear, consistent, and suitable for publication. This is mainly a collection of personal notes coming from experience with various tools and formats, and it is not exhaustive nor a definitive guide (I'm still learning myself!).
 
 The final results shall be done in Adobe Illustrator (Ai), since it's the tool giving the best control over the final output.
 
@@ -130,7 +132,7 @@ When exporting to PDF in DrawIO, one can also choose to include a copy of the di
 
 One shall set the document size as the same as the final image size, which is usually the text width of the paper. ChemDraw might not allow for setting the document size in `pt`, so one can set it in `mm` and then convert it to `pt` (1 pt = 0.352778 mm).
 
-Depending on the target of the manuscript, one shall set the molcule style to the appropriate one, for example, after selecting the molecule(s), go to `Object` -> `Apply Object Settings from` and choose the desired style, such as "ACS Document 1996" for American Chemical Society publications.
+Depending on the target of the manuscript, one shall set the molecule style to the appropriate one, for example, after selecting the molecule(s), go to `Object` -> `Apply Object Settings from` and choose the desired style, such as "ACS Document 1996" for American Chemical Society publications.
 Set it default to the whole document if asked.
 
 All chemical related figures **must** have the same size everywhere in the manuscript (funny how attached code is usually unreadeable, but chemical style is enforced...). Hence, scaling is allowed, as long as it doesn't make the chemical structures too small and applied to all with the same settings.
