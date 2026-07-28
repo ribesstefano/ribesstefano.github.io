@@ -34,6 +34,10 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
+        {% if page.authors %}
+          <p class="archive__item-meta"><span class="archive__item-authors">{{ page.authors | replace: "Stefano Ribes", "<strong>Stefano Ribes</strong>" }}</span></p>
+        {% endif %}
+
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
@@ -45,22 +49,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        <!-- Add the banners here -->
-        {% if page.github or page.colab or page.spaces %}
-          <div class="publication-banners">
-            {% if page.colab %}
-              <a href="{{ page.colab }}" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-            {% endif %}
-            {% if page.github %}
-              <a href="{{ page.github }}" target="_blank"><img src="https://img.shields.io/badge/Open%20in-GitHub-black?logo=github" alt="Open in GitHub"/></a>
-            {% endif %}
-            {% if page.spaces %}
-              <a href="{{ page.spaces }}"><img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg" alt="Open in Spaces"/></a>
-            {% endif %}
-          </div>
-          <!-- Add a short space below here -->
-          <br>
-        {% endif %}
+        {% include resource-links.html item=page %}
 
         {{ content }}
 
