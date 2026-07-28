@@ -54,9 +54,25 @@ Supervision
 MSc thesis supervision at Chalmers University of Technology — see the
 [supervision page](/supervision/) for details.
 
+- **Tingting Mo** and **Jia Xin Zhu**, *Improving AI-based Synthesizability Scores for Next-Generation Protein Degradation Drugs*, **2026**. Examiner R. Mercado.
+- **Alexander Persson** and **Felix Erngård**, reinforcement learning with language models for multi-objective PROTAC optimization, **2026**. Examiner R. Mercado.
 - **Ranxuan Zhang**, *Machine Learning for PROTAC Decomposition and Enhanced Degradation Prediction*, **2025**. Co-supervised with E. Nittinger and C. Tyrchan (AstraZeneca); examiner R. Mercado. Led to the PROTAC-Splitter paper.
-- **Alexander** and **Felix**, PROTAC generation.
-- **Andrea (Jia)** and **Tingting**, PROTAC synthesizability.
+
+Talks and posters
+======
+Selected — see the [talks page](/talks/) for the full list with venues and dates.
+
+- Poster, *TACK*, ML2MD Symposium, Uppsala, **2026** (also KDD, Jeju, August 2026)
+- Tutorial, *Practical significance methods for molecular property prediction*, AIME Lab Workshop, **2026**
+- Poster, *PROTAC-Splitter*, International Conference on Chemical Structures, Noordwijkerhout, **2025**
+- Seminar talk, DSAI Seminar, Chalmers CSE, **2025**
+- Poster, *Modeling PROTAC degradation activity with ML*, AI in Drug Discovery and Biomedicine, Barcelona, **2025**
+- Posters at the Generative Modeling Summer School (Eindhoven) and the Neuro-Symbolic AI Summer School (Salem), **2024**
+- Paper presentation, ICFPT, Maui, **2020**
+
+Service
+======
+- Peer reviewer since **2024** — 10 papers for venues including EurIPS ML4Molecules, the NeurIPS AI4Materials workshop, ICLR, and *Nature Communications*.
 
 Funding
 ======

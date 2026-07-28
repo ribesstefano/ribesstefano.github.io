@@ -1,16 +1,30 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<p>
+  Conference talks, posters, tutorials and seminars, together with the summer
+  schools and workshops they were presented at. Posters and the events they were
+  given at are listed as a single entry.
+</p>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<h2 class="archive__subtitle">Upcoming</h2>
 
-{% endif %}
+<ul>
+  <li><strong>August 2026</strong> — Poster, <em>TACK</em>, at the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), Jeju, South Korea.</li>
+  <li><strong>October 2026</strong> — Poster, <em>TACK</em>, at AI Structured Learning, Gothenburg, Sweden.</li>
+</ul>
 
-{% for post in site.talks reversed %}
+<h2 class="archive__subtitle">Past</h2>
+
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% for post in talks %}
   {% include archive-single-talk.html %}
 {% endfor %}
+
+{% if site.talkmap_link == true %}
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+{% endif %}

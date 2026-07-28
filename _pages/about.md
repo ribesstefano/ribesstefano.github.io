@@ -76,7 +76,8 @@ the papers. See [all publications](/publications/) for the full list.
   [Code](https://github.com/ribesstefano/PROTAC-Degradation-Predictor)
 
 I also supervise MSc thesis projects in this space — see
-[Supervision](/supervision/).
+[Supervision](/supervision/) — and present this work at conferences, summer
+schools and workshops, listed under [Talks](/talks/).
 
 ## Career Path
 
