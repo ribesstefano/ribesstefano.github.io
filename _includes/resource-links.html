@@ -12,12 +12,23 @@
 {% include base_path %}
 {% assign item = include.item %}
 
-{% if item.paperurl or item.doi or item.arxiv or item.chemrxiv or item.preprint or item.pdf or item.github or item.colab or item.spaces or item.dataset or item.zenodo or item.website or item.slides or item.poster or item.video %}
+{% comment %}
+  Only render the DOI pill for something that actually looks like a DOI.
+  Some older entries carry a Zenodo badge/repository id in `doi`, which would
+  otherwise produce a dead https://doi.org/<id> link.
+{% endcomment %}
+{% assign has_doi = false %}
+{% if item.doi %}
+  {% assign doi_prefix = item.doi | slice: 0, 3 %}
+  {% if doi_prefix == "10." %}{% assign has_doi = true %}{% endif %}
+{% endif %}
+
+{% if item.paperurl or has_doi or item.arxiv or item.chemrxiv or item.preprint or item.pdf or item.github or item.colab or item.spaces or item.dataset or item.zenodo or item.website or item.slides or item.poster or item.video %}
 <div class="resource-links">
   {% if item.paperurl %}
     <a class="resource-link" href="{{ item.paperurl }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-book-open" aria-hidden="true"></i>Paper</a>
   {% endif %}
-  {% if item.doi %}
+  {% if has_doi %}
     <a class="resource-link" href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener"><i class="ai ai-doi" aria-hidden="true"></i>DOI</a>
   {% endif %}
   {% if item.arxiv %}
