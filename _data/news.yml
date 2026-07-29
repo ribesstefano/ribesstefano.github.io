@@ -1,0 +1,44 @@
+# Short "what's new" entries shown on the home page.
+# Newest first. `date` is free text so you can write "May 2026" or a full date.
+# `body` accepts inline HTML (links are fine).
+
+- date: "June 2026"
+  body: >-
+    Presented a <a href="/talks/">TACK poster</a> at the Machine
+    Learning for Materials and Molecular Discoveries (ML2MD) symposium in Uppsala.
+    Tingting Mo and Jia Xin Zhu also defended their
+    <a href="/teaching/2026-06-01-synthesizability-scores-protac">MSc thesis on PROTAC
+    synthesizability</a>.
+
+- date: "May 2026"
+  body: >-
+    <a href="/publication/2026-05-19-TACK">TACK</a> was accepted at
+    <strong>KDD 2026</strong> (AI for Science Track) — a 3,514-PROTAC dataset and a
+    statistical benchmark of degradation activity models. Data on
+    <a href="https://huggingface.co/datasets/ailab-bio/TACK">Hugging Face</a>.
+
+- date: "March 2026"
+  body: >-
+    Gave a <a href="/talks/">tutorial on significance testing
+    for molecular property prediction</a> at the AIME lab workshop.
+
+- date: "February 2026"
+  body: >-
+    <a href="/publication/2026-02-20-PROTAC-Splitter">PROTAC-Splitter</a> is out in the
+    <em>Journal of Cheminformatics</em>, together with a synthetic dataset of ~1.3M
+    annotated PROTACs and a
+    <a href="https://huggingface.co/spaces/ailab-bio/PROTAC-Splitter-App">live demo</a>.
+
+- date: "June 2025"
+  body: >-
+    Ranxuan Zhang defended her
+    <a href="/teaching/2025-06-01-protac-decomposition-degradation-prediction">MSc thesis
+    on machine learning for PROTAC decomposition</a>, which I supervised.
+    I also presented <a href="/talks/">PROTAC-Splitter</a> at the
+    International Conference on Chemical Structures in Noordwijkerhout.
+
+- date: "August 2024"
+  body: >-
+    <a href="/publication/2024-08-24-Modeling-PROTAC-degradation-activity-with-machine-learning">Modeling
+    PROTAC degradation activity with machine learning</a> published in
+    <em>Artificial Intelligence in the Life Sciences</em>.

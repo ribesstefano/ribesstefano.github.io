@@ -1,16 +1,45 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
+<p>
+  Conference talks, posters, tutorials and seminars, together with the summer
+  schools and workshops they were presented at. Posters and the events they were
+  given at are listed as a single entry.
+</p>
+
+<h2 class="archive__subtitle">Upcoming</h2>
+
+<ul class="news-list">
+  <li class="news-list__item">
+    <span class="news-list__date">August 2026</span>
+    <div class="news-list__body">Poster, <em>TACK</em>, at the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), Jeju, South Korea.</div>
+  </li>
+  <li class="news-list__item">
+    <span class="news-list__date">October 2026</span>
+    <div class="news-list__body">Poster, <em>TACK</em>, at AI Structured Learning, Gothenburg, Sweden.</div>
+  </li>
+</ul>
+
+<h2 class="archive__subtitle">Past</h2>
+
+<ul class="news-list">
+  {% assign talks = site.talks | sort: "date" | reverse %}
+  {% for post in talks %}
+    <li class="news-list__item">
+      <span class="news-list__date">{{ post.date | date: "%B %Y" }}</span>
+      <div class="news-list__body">
+        <strong>{{ post.title }}</strong><br>
+        {{ post.type }}{% if post.venue %} &middot; {{ post.venue }}{% endif %}{% if post.location %}, {{ post.location }}{% endif %}
+        {% include resource-links.html item=post %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
 {% if site.talkmap_link == true %}
-
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
 {% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}

@@ -7,68 +7,118 @@ redirect_from:
   - /about.html
 ---
 
-I'm a [PhD student](https://www.chalmers.se/en/persons/ribes/) in the [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio) at Chalmers University of Technology, in Gothenburg, Sweden, where I explore the use of artificial intelligence in drug discovery and molecular engineering. My academic journey has taken me from a bachelor's in computer engineering to advanced studies in data science and AI. Along the way, I've gained experience in both academia and industry, including an intership at AstraZeneca.
+<div class="intro-hero" markdown="1">
 
-I'm passionate about merging technology with life sciences, and I'm always open to discussing new ideas and collaborations! Feel free to reach out if you'd like to connect 🚀
+I build open-source machine learning tools for **targeted protein degradation**.
 
-## Research Interests
+I'm a [PhD student](https://www.chalmers.se/en/persons/ribes/) in the
+[AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio) at Chalmers
+University of Technology in Gothenburg, Sweden, working at the intersection of AI,
+computational chemistry and drug discovery. Most of my work is about PROTACs: how to
+represent them, how to predict what they will degrade, and how to make the data and
+models behind those predictions genuinely reusable by other groups.
 
-My research interests lie at the intersection of artificial intelligence, computational chemistry, and drug discovery. I'm particularly interested in the development of machine learning models for predicting the activity of small molecules in biological systems, with a focus on targeted protein degradation and PROTACs. I'm also interested in the application of Neurosymbolic AI techniques for discovering new chemical reactions within the context of retrosynthesis prediction.
+My path here ran from computer engineering through FPGA accelerators and two years
+in the aerospace sector, before an internship at AstraZeneca turned into a PhD. I'm
+always happy to talk about new ideas and collaborations —
+[reach out](mailto:ribes@chalmers.se) 🚀
 
-Please check out my [publications](/publications) for more details on my research projects.
+</div>
 
-## More Details On My Career Path...
+## News
 
-Before AI "was cool", I focused my studies on embedded systems, with a focus on computer architecture design and high performance computing. I've always been fascinated by both hardware and software, and I've worked on projects ranging from developing [hardware IPs](https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core_) for RISC-V processors to [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)-based accelerators in [HLS](https://en.wikipedia.org/wiki/High-level_synthesis) for machine learning.
+{% include news.html limit=4 %}
 
-After working two years in the aerospace sector at [Gaisler](https://www.gaisler.com), I decided to pivot my career towards AI and computational chemistry instead.
-Thanks to an intership opportunity at AstraZeneca in Gothenburg, that introduced me to my current PhD supervisor, [Rocío Mercado](https://rociomer.github.io), I had the chance to work on a project that combined my passion for AI with my interest in drug discovery. This experience was a turning point for me and made me pursue a PhD in the field of AI-driven molecular engineering.
+[See all news](/news/).
+
+## Research
+
+<div class="card-grid" markdown="0">
+  <div class="card">
+    <span class="card__eyebrow">Activity prediction</span>
+    <h3>Will this degrader work?</h3>
+    <p>Models that predict PROTAC-induced degradation (pDC<sub>50</sub>, D<sub>max</sub>, binary activity) from structure, target and cellular context — and honest evaluation protocols for telling real progress from noise.</p>
+  </div>
+  <div class="card">
+    <span class="card__eyebrow">Molecular representation</span>
+    <h3>Reading PROTACs as modules</h3>
+    <p>Automatically decomposing heterobifunctional degraders into E3 ligand, linker and warhead, so downstream models can reason about the parts rather than one opaque SMILES string.</p>
+  </div>
+  <div class="card">
+    <span class="card__eyebrow">Open data</span>
+    <h3>Datasets others can build on</h3>
+    <p>Curating, harmonising and releasing PROTAC data — because in this field a lot of apparent modelling progress turns out to be curation in disguise.</p>
+  </div>
+</div>
+
+## Selected Work
+
+Everything below is open source, with data and trained models released alongside
+the papers. See [all publications](/publications/) for the full list.
+
+- **[TACK](/publication/2026-05-19-TACK)** (KDD 2026) — 3,514 PROTACs and 6,561
+  degradation endpoints in one standardised dataset, plus a statistical benchmark
+  showing that XGBoost and MLPs still beat a domain-specific GNN.
+  [Dataset](https://huggingface.co/datasets/ailab-bio/TACK) ·
+  [Code](https://github.com/ribesstefano/TACK)
+- **[PROTAC-Splitter](/publication/2026-02-20-PROTAC-Splitter)**
+  (*Journal of Cheminformatics*, 2026) — automated annotation of PROTAC
+  substructures, with a synthetic corpus of ~1.3M annotated structures.
+  [Demo](https://huggingface.co/spaces/ailab-bio/PROTAC-Splitter-App) ·
+  [Code](https://github.com/ribesstefano/PROTAC-Splitter)
+- **[PROTAC-Degradation-Predictor](/publication/2024-08-24-Modeling-PROTAC-degradation-activity-with-machine-learning)**
+  (*AI in the Life Sciences*, 2024) — an open, reproducible degradation activity
+  model that outperforms DeepPROTACs at a fraction of the complexity.
+  [Demo](https://huggingface.co/spaces/ailab-bio/PROTAC-Degradation-Predictor) ·
+  [Code](https://github.com/ribesstefano/PROTAC-Degradation-Predictor)
+
+I also supervise MSc thesis projects in this space — see
+[Supervision](/supervision/) — and present this work at conferences, summer
+schools and workshops, listed under [Talks](/talks/).
+
+## Career Path
+
+Before AI "was cool", I focused my studies on embedded systems, with a focus on
+computer architecture design and high performance computing. I've always been
+fascinated by both hardware and software, and I've worked on projects ranging from
+developing [hardware IPs](https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core_)
+for RISC-V processors to [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)-based
+accelerators in [HLS](https://en.wikipedia.org/wiki/High-level_synthesis) for
+machine learning.
+
+After working two years in the aerospace sector at [Gaisler](https://www.gaisler.com),
+I decided to pivot my career towards AI and computational chemistry instead. Thanks
+to an internship opportunity at [AstraZeneca](https://www.astrazeneca.se/om-oss/verksamheten-i-sverige/goteborg.html) in Gothenburg, which introduced me to my
+current PhD supervisor, [Rocío Mercado](https://rociomer.github.io), I had the chance
+to work on a project that combined my passion for AI with my interest in drug
+discovery. This experience was a turning point for me and made me pursue a PhD in
+the field of AI-driven molecular engineering.
 
 Please check my [CV](/cv) for more details on my education and work experience.
 
+## Collaborators
+
+This work does not happen alone. I'm grateful to collaborate with
+[Rocío Mercado](https://rociomer.github.io), and my group at [AIME](https://ailab.bio) at Chalmers,
+and with **Eva Nittinger** and **Christian Tyrchan** at AstraZeneca R&D Gothenburg —
+as well as with my former co-authors **Pedro Trancoso**, **Ioannis Sourdis** and
+**Christos-Savvas Bouganis** from my hardware years.
+
+<div class="funding-note" markdown="1">
+**Funding.** My research is supported by the **Chalmers Gender Initiative for
+Excellence (Genie)** and the **Wallenberg AI, Autonomous Systems and Software Program
+(WASP)**, funded by the **Knut and Alice Wallenberg Foundation**. Computations and
+data storage are enabled by **Chalmers e-Commons** and the **National Academic
+Infrastructure for Supercomputing in Sweden (NAISS)**, partially funded by the
+**Swedish Research Council** through grant agreement no. 2022-06725.
+</div>
+
 ## Miscellanea
 
-- I love cooking and trying new recipes, sometimes in a very "nerdy" way (for example, I really love this [book series](https://www.gribaudo.it/opera/la-scienza-delle-verdure/) 🥦)
-- If you don't speak Italian, somehow my name is very hard to pronounce right... so [here is how to pronunce it correctly!](https://www.youtube.com/watch?v=EL83d7oe_Ks&ab_channel=PronounceNames)
-- For personal reasons, I happen to often travel to Leiden, in the Netherlands. If you're around, we can also meet there in the lovely city center! (have you ever tried kibbeling? 🐟)
-
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+- I love cooking and trying new recipes, sometimes in a very "nerdy" way (for
+  example, I really love this
+  [book series](https://www.gribaudo.it/opera/la-scienza-delle-verdure/) 🥦)
+- If you don't speak Italian, somehow my name is very hard to pronounce right... so
+  [here is how to pronounce it correctly!](https://www.youtube.com/watch?v=EL83d7oe_Ks&ab_channel=PronounceNames)
+- For personal reasons, I happen to often travel to Leiden, in the Netherlands. If
+  you're around, we can also meet there in the lovely city center!

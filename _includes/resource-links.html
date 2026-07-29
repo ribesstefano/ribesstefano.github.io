@@ -1,0 +1,74 @@
+{% comment %}
+  Renders a row of resource pills (paper, code, data, demo, ...) for a
+  publication, project or portfolio entry.
+
+  Usage: {% include resource-links.html item=post %}
+
+  Recognised front matter keys on `item`:
+    paperurl, doi, arxiv, chemrxiv, preprint, pdf,
+    github, colab, spaces, dataset, zenodo, website, slides, poster, video
+{% endcomment %}
+
+{% include base_path %}
+{% assign item = include.item %}
+
+{% comment %}
+  Only render the DOI pill for something that actually looks like a DOI.
+  Some older entries carry a Zenodo badge/repository id in `doi`, which would
+  otherwise produce a dead https://doi.org/<id> link.
+{% endcomment %}
+{% assign has_doi = false %}
+{% if item.doi %}
+  {% assign doi_prefix = item.doi | slice: 0, 3 %}
+  {% if doi_prefix == "10." %}{% assign has_doi = true %}{% endif %}
+{% endif %}
+
+{% if item.paperurl or has_doi or item.arxiv or item.chemrxiv or item.preprint or item.pdf or item.github or item.colab or item.spaces or item.dataset or item.zenodo or item.website or item.slides or item.poster or item.video %}
+<div class="resource-links">
+  {% if item.paperurl %}
+    <a class="resource-link" href="{{ item.paperurl }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-book-open" aria-hidden="true"></i>Paper</a>
+  {% endif %}
+  {% if has_doi %}
+    <a class="resource-link" href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener"><i class="ai ai-doi" aria-hidden="true"></i>DOI</a>
+  {% endif %}
+  {% if item.arxiv %}
+    <a class="resource-link" href="{{ item.arxiv }}" target="_blank" rel="noopener"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>
+  {% endif %}
+  {% if item.chemrxiv %}
+    <a class="resource-link" href="{{ item.chemrxiv }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-flask" aria-hidden="true"></i>ChemRxiv</a>
+  {% endif %}
+  {% if item.preprint %}
+    <a class="resource-link" href="{{ item.preprint }}" target="_blank" rel="noopener"><i class="ai ai-open-access" aria-hidden="true"></i>Preprint</a>
+  {% endif %}
+  {% if item.pdf %}
+    <a class="resource-link" href="{{ item.pdf }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a>
+  {% endif %}
+  {% if item.github %}
+    <a class="resource-link" href="{{ item.github }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-github" aria-hidden="true"></i>Code</a>
+  {% endif %}
+  {% if item.spaces %}
+    <a class="resource-link" href="{{ item.spaces }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-wand-magic-sparkles" aria-hidden="true"></i>Demo</a>
+  {% endif %}
+  {% if item.colab %}
+    <a class="resource-link" href="{{ item.colab }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-play" aria-hidden="true"></i>Colab</a>
+  {% endif %}
+  {% if item.dataset %}
+    <a class="resource-link" href="{{ item.dataset }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-database" aria-hidden="true"></i>Dataset</a>
+  {% endif %}
+  {% if item.zenodo %}
+    <a class="resource-link" href="{{ item.zenodo }}" target="_blank" rel="noopener"><i class="ai ai-zenodo" aria-hidden="true"></i>Zenodo</a>
+  {% endif %}
+  {% if item.website %}
+    <a class="resource-link" href="{{ item.website }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-globe" aria-hidden="true"></i>Website</a>
+  {% endif %}
+  {% if item.slides %}
+    <a class="resource-link" href="{{ item.slides }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-display" aria-hidden="true"></i>Slides</a>
+  {% endif %}
+  {% if item.poster %}
+    <a class="resource-link" href="{{ item.poster }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-image" aria-hidden="true"></i>Poster</a>
+  {% endif %}
+  {% if item.video %}
+    <a class="resource-link" href="{{ item.video }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-video" aria-hidden="true"></i>Video</a>
+  {% endif %}
+</div>
+{% endif %}

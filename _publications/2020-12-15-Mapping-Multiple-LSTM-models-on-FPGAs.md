@@ -8,7 +8,9 @@ venue: International Conference on Field-Programmable Technology (ICFPT)
 doi: 10.1109/ICFPT51103.2020.00010
 citation: Ribes, S., Trancoso, P., Sourdis, I., Bouganis, C.S., <i>"Mapping Multiple LSTM Models on FPGAs"</i>, ICFPT 2020
 paperurl: https://ieeexplore.ieee.org/document/9415569
+pdf: /files/Mapping_Multiple_LSTM_models_on_FPGAs.pdf
 github: https://github.com/ribesstefano/Mapping-Multiple-LSTM-Models-on-FPGAs
+excerpt: "A framework that co-optimises multiple LSTM models for FPGA deployment via SVD-based approximation and structured pruning, reaching 3× to 5× speedups at equal accuracy loss."
 ---
 
 This paper introduces a framework for accelerating multiple Long Short-Term Memory (LSTM) models onto FPGA devices.
@@ -124,10 +126,12 @@ The code for this project is available on [GitHub](https://github.com/ribesstefa
 <!-- An open-access version of the paper can be downloaded <a href="files/Mapping_Multiple_LSTM_models_on_FPGAs.pdf" download>here</a>. -->
 An open-access version of the paper can be downloaded [here]({{ site.baseurl }}/files/Mapping_Multiple_LSTM_models_on_FPGAs.pdf).
 
-<!--
+## Citation
+
 If you plan on using our work, please cite it as:
 
-```text
+{% raw %}
+```bibtex
 @inproceedings{ribes2020mapping,
   title={{Mapping multiple LSTM models on FPGAs}},
   author={Ribes, Stefano and Trancoso, Pedro and Sourdis, Ioannis and Bouganis, Christos-Savvas},
@@ -137,4 +141,4 @@ If you plan on using our work, please cite it as:
   organization={IEEE}
 }
 ```
- -->
+{% endraw %}

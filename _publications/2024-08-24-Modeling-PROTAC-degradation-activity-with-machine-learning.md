@@ -10,9 +10,11 @@ year: 2024
 doi: 10.1016/j.ailsci.2024.100104
 citation: Ribes, S., Nittinger, E., Tyrchan, C., Mercado, R., <i>"Modeling PROTAC degradation activity with machine learning"</i>, Artificial Intelligence in the Life Sciences 2024
 paperurl: https://www.sciencedirect.com/science/article/pii/S2667318524000217?via%3Dihub
+arxiv: https://arxiv.org/abs/2406.02637
 github: https://github.com/ribesstefano/PROTAC-Degradation-Predictor
 colab: https://colab.research.google.com/github/ribesstefano/PROTAC-Degradation-Predictor/blob/main/notebooks/protac_degradation_predictor_tutorial.ipynb
 spaces: https://huggingface.co/spaces/ailab-bio/PROTAC-Degradation-Predictor
+excerpt: "An open-source, reproducible deep learning model for predicting PROTAC-induced degradation activity, together with a curated dataset built from PROTAC-DB and PROTAC-Pedia."
 ---
 
 In this work, we propose an efficient and open-source machine learning strategy to predict the degradation activity of PROteolysis TArgeting Chimeras (PROTACs).

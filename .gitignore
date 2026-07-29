@@ -3,3 +3,6 @@ _site/
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
+
+# Sass cache from local builds
+.sass-cache/
