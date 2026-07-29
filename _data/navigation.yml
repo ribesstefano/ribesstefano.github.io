@@ -14,15 +14,15 @@ main:
 
   - title: "Supervision"
     url: /supervision/
+        
+  - title: "CV"
+    url: /cv/
 
   - title: "Code Portfolio"
     url: /portfolio/
-        
+
   - title: "Blog Posts"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
+
   # - title: "Guide"
   #   url: /markdown/
