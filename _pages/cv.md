@@ -11,35 +11,79 @@ redirect_from:
 
 Education
 ======
-- PhD Student in Computer Science and Engineering, [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio), Chalmers University of Technology, **2024 - December 2026 (expected)**
-  - PI: [Rocío Mercado Oropeza](https://rociomer.github.io)
-- Master's Degree in Data Science and AI, Chalmers University of Technology, **2023**
-  - Avg. grade: 4.3/5
-  - Thesis: ["Machine Learning for Predicting Targeted Protein Degradation"](https://github.com/ribesstefano/ml-for-protacs)
-- Swedish Licentiate of Technology, Chalmers University of Technology **2021**
-  - Thesis: ["Multi-LSTM Acceleration and CNN Fault Tolerance"](https://research.chalmers.se/publication/522996/file/522996_Fulltext.pdf)
-- Erasmus Exchange in Embedded Electronic System Design, Chalmers University of Technology, **2016**
-  - Avg. grade: 4.25/5
-- Master's Degree in Computer Engineering Embedded Systems, Polytechnic University of Turin, **2016**
-  - Final grade: 101/110
-- Bachelor's Degree in Computer Engineering, University of Modena and Reggio Emilia,  **2014**
-  - Final grade: 96/110
-  - Thesis: "Study and Research on Responsive Technologies for Web Applications"
+**PhD Student in Computer Science and Engineering**, [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio), Chalmers University of Technology
+{: .cv-entry__title}
+
+2024 – December 2026 (expected) · PI: [Rocío Mercado Oropeza](https://rociomer.github.io)
+{: .cv-entry__meta}
+
+**Master's Degree in Data Science and AI**, Chalmers University of Technology
+{: .cv-entry__title}
+
+2023 · Avg. grade: 4.3/5 · Thesis: ["Machine Learning for Predicting Targeted Protein Degradation"](https://github.com/ribesstefano/ml-for-protacs)
+{: .cv-entry__meta}
+
+**Swedish Licentiate of Technology**, Chalmers University of Technology
+{: .cv-entry__title}
+
+2021 · Thesis: ["Multi-LSTM Acceleration and CNN Fault Tolerance"](https://research.chalmers.se/publication/522996/file/522996_Fulltext.pdf)
+{: .cv-entry__meta}
+
+**Erasmus Exchange in Embedded Electronic System Design**, Chalmers University of Technology
+{: .cv-entry__title}
+
+2016 · Avg. grade: 4.25/5
+{: .cv-entry__meta}
+
+**Master's Degree in Computer Engineering Embedded Systems**, Polytechnic University of Turin
+{: .cv-entry__title}
+
+2016 · Final grade: 101/110
+{: .cv-entry__meta}
+
+**Bachelor's Degree in Computer Engineering**, University of Modena and Reggio Emilia
+{: .cv-entry__title}
+
+2014 · Final grade: 96/110 · Thesis: "Study and Research on Responsive Technologies for Web Applications"
+{: .cv-entry__meta}
 
 Work experience
 ======
-- March 2024 - Present: **PhD Student**, [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio), Chalmers University of Technology.
-  - Researching in AI-driven molecular engineering with applications in drug discovery.
-- Fall 2023: **Research Student**, [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio), Chalmers University of Technology.
-  - Continuing master thesis work on predicting protein-ligand activity using deep learning models.
-- Spring 2023: **Master Thesis Intern**, AstraZeneca, Gothenburg
-  - Worked on thesis titled ["Machine Learning for Predicting Targeted Protein Degradation"](https://github.com/ribesstefano/ml-for-protacs).
-- 2020 - 2022: **Hardware Engineer**, Cobham Gaisler, Gothenburg
-  - Digital designer writing and testing RTL modules for RISC-V based processors.
-- 2016 - 2020: **Teaching Assistant**, Chalmers University of Technology
-  - Taught VHDL and assisted in courses related to signal processing and computer architecture.
-- 2014: **Intern**, QUIX Software Solutions & Consulting, Italy
-  - Software development focusing on public sector service management.
+**PhD Student**, [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio), Chalmers University of Technology
+{: .cv-entry__title}
+
+March 2024 – Present · Researching AI-driven molecular engineering with applications in drug discovery
+{: .cv-entry__meta}
+
+**Research Student**, [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio), Chalmers University of Technology
+{: .cv-entry__title}
+
+Fall 2023 · Continuing master thesis work on predicting protein-ligand activity using deep learning models
+{: .cv-entry__meta}
+
+**Master Thesis Intern**, AstraZeneca, Gothenburg
+{: .cv-entry__title}
+
+Spring 2023 · Worked on thesis titled ["Machine Learning for Predicting Targeted Protein Degradation"](https://github.com/ribesstefano/ml-for-protacs)
+{: .cv-entry__meta}
+
+**Hardware Engineer**, Cobham Gaisler, Gothenburg
+{: .cv-entry__title}
+
+2020 – 2022 · Digital designer writing and testing RTL modules for RISC-V based processors
+{: .cv-entry__meta}
+
+**Teaching Assistant**, Chalmers University of Technology
+{: .cv-entry__title}
+
+2016 – 2020 · Taught VHDL and assisted in courses related to signal processing and computer architecture
+{: .cv-entry__meta}
+
+**Intern**, QUIX Software Solutions & Consulting, Italy
+{: .cv-entry__title}
+
+2014 · Software development focusing on public sector service management
+{: .cv-entry__meta}
 
 Skills
 ======

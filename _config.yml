@@ -25,7 +25,7 @@ author:
   name             : "Stefano Ribes 🚀"
   pronouns         : # "he" # example: "she/her"  
   bio              : "PhD student in molecular AI. I build open-source ML tools for targeted protein degradation." # "Short biography for the left-hand sidebar"
-  location         : "Gothenburg (SE) | Leiden (NL)"
+  location         : "Gothenburg | Leiden"
   employer         : "Chalmers University"
   uri              : # URL
   email            : "ribes@chalmers.se" 

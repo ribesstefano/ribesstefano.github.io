@@ -11,7 +11,7 @@ year: 2026
 doi: 10.1186/s13321-025-01135-9
 citation: 'Ribes, S., Zhang, R., Cropsal, T., Källberg, A., Tyrchan, C., Nittinger, E., Mercado, R., <i>"PROTAC-Splitter: a machine learning framework for automated identification of PROTAC substructures"</i>, Journal of Cheminformatics 18, 30 (2026).'
 paperurl: https://doi.org/10.1186/s13321-025-01135-9
-chemrxiv: https://doi.org/10.26434/chemrxiv-2025-bn1nv
+chemrxiv: https://chemrxiv.org/doi/10.26434/chemrxiv-2025-bn1nv
 github: https://github.com/ribesstefano/PROTAC-Splitter
 spaces: https://huggingface.co/spaces/ailab-bio/PROTAC-Splitter-App
 zenodo: https://doi.org/10.5281/zenodo.15797309
@@ -49,6 +49,11 @@ from the well-trodden CRBN/VHL space.
 
 PROTAC-Splitter treats decomposition as a learning problem instead of a matching
 problem, which is what lets it generalise to chemistry it has not seen before.
+
+<figure>
+    <img src="/images/papers/2026-01-20-PROTAC-Splitter/pipeline.png" style="width: 90%; display: block; margin: 0 auto;">
+    <figcaption>Figure 1: (a) Summary of the data curation, model training, and evaluation pipeline developed in this work. (b) Illustration of the linker matching procedure used in the dictionary-based substructure annotation procedure. (c) High-level overview of the synthetic data generation process, designed to reflect the distribution of connection types between the substructures in the public PROTACs curated from PROTAC-DB and PROTAC-Pedia. Here, P denotes a probability distribution of connection types, and ~ denotes sampling from a distribution.</figcaption>
+</figure>
 
 ## Approach
 

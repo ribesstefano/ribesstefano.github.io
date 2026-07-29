@@ -386,6 +386,21 @@ hr {
 }
 
 /*
+   CV entries — flat title + meta lines instead of nested bullets
+   ========================================================================== */
+
+.cv-entry__title {
+  color: var(--sr-text);
+  margin: 1.1em 0 0.15em;
+}
+
+.cv-entry__meta {
+  color: var(--sr-text-muted);
+  font-size: 0.88em;
+  margin: 0 0 1.1em;
+}
+
+/*
    Resource pills (paper / code / demo / data links)
    ========================================================================== */
 
