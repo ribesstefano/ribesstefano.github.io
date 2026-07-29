@@ -8,6 +8,7 @@ venue: "AIME Lab Group Workshop"
 date: 2026-03-01
 location: "Gothenburg, Sweden"
 excerpt: "Hands-on tutorial on statistical significance testing for molecular property prediction models."
+paperurl: /publication/2026-05-19-TACK
 ---
 
 Tutorial given at the AIME lab workshop on how to make defensible claims when

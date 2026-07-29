@@ -4,7 +4,7 @@
 {% endcomment %}
 
 {% if site.data.news and site.data.news.size > 0 %}
-  {% assign news_limit = include.limit | default: 5 %}
+  {% assign news_limit = include.limit | default: site.data.news.size %}
   <ul class="news-list">
     {% for entry in site.data.news limit: news_limit %}
       <li class="news-list__item">

@@ -8,6 +8,7 @@ venue: "AI Structured Learning"
 date: 2025-10-01
 location: "Gothenburg, Sweden"
 excerpt: "Workshop poster on automated PROTAC substructure annotation."
+paperurl: /publication/2026-02-20-PROTAC-Splitter
 ---
 
 Poster presented at the AI Structured Learning workshop in Gothenburg, on

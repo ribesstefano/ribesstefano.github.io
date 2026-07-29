@@ -29,6 +29,8 @@ always happy to talk about new ideas and collaborations —
 
 {% include news.html limit=4 %}
 
+[See all news](/news/).
+
 ## Research
 
 <div class="card-grid" markdown="0">
@@ -46,11 +48,6 @@ always happy to talk about new ideas and collaborations —
     <span class="card__eyebrow">Open data</span>
     <h3>Datasets others can build on</h3>
     <p>Curating, harmonising and releasing PROTAC data — because in this field a lot of apparent modelling progress turns out to be curation in disguise.</p>
-  </div>
-  <div class="card">
-    <span class="card__eyebrow">Neurosymbolic AI</span>
-    <h3>Reactions and retrosynthesis</h3>
-    <p>Combining learned models with symbolic reasoning to discover chemical reactions and support retrosynthesis prediction.</p>
   </div>
 </div>
 
@@ -91,7 +88,7 @@ machine learning.
 
 After working two years in the aerospace sector at [Gaisler](https://www.gaisler.com),
 I decided to pivot my career towards AI and computational chemistry instead. Thanks
-to an internship opportunity at AstraZeneca in Gothenburg, which introduced me to my
+to an internship opportunity at [AstraZeneca](https://www.astrazeneca.se/om-oss/verksamheten-i-sverige/goteborg.html) in Gothenburg, which introduced me to my
 current PhD supervisor, [Rocío Mercado](https://rociomer.github.io), I had the chance
 to work on a project that combined my passion for AI with my interest in drug
 discovery. This experience was a turning point for me and made me pursue a PhD in
@@ -102,8 +99,7 @@ Please check my [CV](/cv) for more details on my education and work experience.
 ## Collaborators
 
 This work does not happen alone. I'm grateful to collaborate with
-[Rocío Mercado](https://rociomer.github.io), **Nils Dunlop**, **Télio Cropsal**,
-**Ranxuan Zhang** and **Anders Källberg** at [AIME](https://ailab.bio) / Chalmers,
+[Rocío Mercado](https://rociomer.github.io), and my group at [AIME](https://ailab.bio) at Chalmers,
 and with **Eva Nittinger** and **Christian Tyrchan** at AstraZeneca R&D Gothenburg —
 as well as with my former co-authors **Pedro Trancoso**, **Ioannis Sourdis** and
 **Christos-Savvas Bouganis** from my hardware years.
@@ -125,5 +121,4 @@ Infrastructure for Supercomputing in Sweden (NAISS)**, partially funded by the
 - If you don't speak Italian, somehow my name is very hard to pronounce right... so
   [here is how to pronounce it correctly!](https://www.youtube.com/watch?v=EL83d7oe_Ks&ab_channel=PronounceNames)
 - For personal reasons, I happen to often travel to Leiden, in the Netherlands. If
-  you're around, we can also meet there in the lovely city center! (have you ever
-  tried kibbeling? 🐟)
+  you're around, we can also meet there in the lovely city center!

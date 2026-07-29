@@ -4,10 +4,11 @@
 
 - date: "June 2026"
   body: >-
-    Presented a <a href="/talks/2026-06-01-ml2md">TACK poster</a> at the Machine
+    Presented a <a href="/talks/">TACK poster</a> at the Machine
     Learning for Materials and Molecular Discoveries (ML2MD) symposium in Uppsala.
-    Tingting Mo and Jia Xin Zhu also defended their MSc thesis on PROTAC
-    synthesizability — see <a href="/supervision/">Supervision</a>.
+    Tingting Mo and Jia Xin Zhu also defended their
+    <a href="/teaching/2026-06-01-synthesizability-scores-protac">MSc thesis on PROTAC
+    synthesizability</a>.
 
 - date: "May 2026"
   body: >-
@@ -18,7 +19,7 @@
 
 - date: "March 2026"
   body: >-
-    Gave a <a href="/talks/2026-03-01-aime-tutorial">tutorial on significance testing
+    Gave a <a href="/talks/">tutorial on significance testing
     for molecular property prediction</a> at the AIME lab workshop.
 
 - date: "February 2026"
@@ -30,9 +31,10 @@
 
 - date: "June 2025"
   body: >-
-    Ranxuan Zhang defended her MSc thesis on machine learning for PROTAC
-    decomposition, which I supervised — see <a href="/supervision/">Supervision</a>.
-    I also presented <a href="/talks/2025-06-01-iccs-2025">PROTAC-Splitter</a> at the
+    Ranxuan Zhang defended her
+    <a href="/teaching/2025-06-01-protac-decomposition-degradation-prediction">MSc thesis
+    on machine learning for PROTAC decomposition</a>, which I supervised.
+    I also presented <a href="/talks/">PROTAC-Splitter</a> at the
     International Conference on Chemical Structures in Noordwijkerhout.
 
 - date: "August 2024"

@@ -24,14 +24,14 @@ author:
   avatar           : "profile.jpg"
   name             : "Stefano Ribes 🚀"
   pronouns         : # "he" # example: "she/her"  
-  bio              : "PhD student in AI for drug discovery. I build open-source ML tools for targeted protein degradation." # "Short biography for the left-hand sidebar"
+  bio              : "PhD student in molecular AI. I build open-source ML tools for targeted protein degradation." # "Short biography for the left-hand sidebar"
   location         : "Gothenburg (SE) | Leiden (NL)"
   employer         : "Chalmers University"
   uri              : # URL
   email            : "ribes@chalmers.se" 
 
   # Academic websites
-  arxiv            : # URL - set this once you have an arXiv author identifier configured
+  arxiv            : http://arxiv.org/a/ribes_s_1 # URL - set this once you have an arXiv author identifier configured
   googlescholar    : "https://scholar.google.com/citations?user=w5pOme8AAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-2774-8792"
@@ -212,7 +212,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -263,14 +263,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
   # _portfolio
   - scope:
       path: ""

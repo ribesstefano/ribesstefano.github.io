@@ -13,17 +13,32 @@ author_profile: true
 
 <h2 class="archive__subtitle">Upcoming</h2>
 
-<ul>
-  <li><strong>August 2026</strong> — Poster, <em>TACK</em>, at the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), Jeju, South Korea.</li>
-  <li><strong>October 2026</strong> — Poster, <em>TACK</em>, at AI Structured Learning, Gothenburg, Sweden.</li>
+<ul class="news-list">
+  <li class="news-list__item">
+    <span class="news-list__date">August 2026</span>
+    <div class="news-list__body">Poster, <em>TACK</em>, at the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), Jeju, South Korea.</div>
+  </li>
+  <li class="news-list__item">
+    <span class="news-list__date">October 2026</span>
+    <div class="news-list__body">Poster, <em>TACK</em>, at AI Structured Learning, Gothenburg, Sweden.</div>
+  </li>
 </ul>
 
 <h2 class="archive__subtitle">Past</h2>
 
-{% assign talks = site.talks | sort: "date" | reverse %}
-{% for post in talks %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<ul class="news-list">
+  {% assign talks = site.talks | sort: "date" | reverse %}
+  {% for post in talks %}
+    <li class="news-list__item">
+      <span class="news-list__date">{{ post.date | date: "%B %Y" }}</span>
+      <div class="news-list__body">
+        <strong>{{ post.title }}</strong><br>
+        {{ post.type }}{% if post.venue %} &middot; {{ post.venue }}{% endif %}{% if post.location %}, {{ post.location }}{% endif %}
+        {% include resource-links.html item=post %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 
 {% if site.talkmap_link == true %}
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>

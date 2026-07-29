@@ -8,6 +8,7 @@ venue: "AI Structured Learning"
 date: 2024-10-01
 location: "Gothenburg, Sweden"
 excerpt: "Workshop poster on PROTAC degradation activity prediction."
+paperurl: /publication/2024-08-24-Modeling-PROTAC-degradation-activity-with-machine-learning
 ---
 
 Poster presented at the AI Structured Learning workshop in Gothenburg, covering

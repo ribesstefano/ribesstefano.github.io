@@ -8,6 +8,7 @@ venue: "Generative AI in the Life Sciences"
 date: 2024-04-01
 location: "Copenhagen, Denmark"
 excerpt: "Poster on our open-source model for predicting PROTAC-induced degradation activity."
+paperurl: /publication/2024-08-24-Modeling-PROTAC-degradation-activity-with-machine-learning
 ---
 
 Poster presentation of our open-source approach to predicting PROTAC-induced

@@ -18,49 +18,10 @@ unglamorous but very necessary business of building good datasets.
 
 ## MSc Theses Supervised
 
-### Improving AI-based Synthesizability Scores for Next-Generation Protein Degradation Drugs
-
-**Tingting Mo** and **Jia Xin Zhu** — Chalmers University of Technology and
-University of Gothenburg, 2026. Examiner **Rocío Mercado**.
-
-Can you tell whether a proposed PROTAC is actually makeable without running a
-full retrosynthesis search every time? The thesis builds a systematic framework
-for PROTAC synthesizability assessment: 27,099 PROTACs curated and labelled,
-decomposed with [PROTAC-Splitter](/publication/2026-02-20-PROTAC-Splitter) and
-scored with AiZynthFinder, then distilled into Random Forest, XGBoost and MLP
-surrogates. Component-level and whole-molecule synthesizability agree 57% of the
-time, with **linkers** identified as the dominant source of synthetic
-difficulty. The best classifier reaches 0.958 ROC-AUC; the best regressor
-reaches an R² of 0.497, rising to 0.661 once noisy labels are filtered.
-
-### Reinforcement Learning with Language Models for Multi-Objective PROTAC Optimization
-
-**Alexander Persson** and **Felix Erngård** — Chalmers University of Technology
-and University of Gothenburg, 2026. Examiner **Rocío Mercado**.
-
-Generative design of complete PROTACs: using language models with reinforcement
-learning to optimise heterobifunctional degraders against several objectives at
-once, rather than tuning one component in isolation.
-
-[Read the thesis](https://odr.chalmers.se/items/65276979-1afe-41d0-8f72-bcc7fbd66c88)
-
-<!--
-  TODO (Stefano): replace the heading above with the thesis' exact registered
-  title from ODR. The odr.chalmers.se host is blocked from the environment this
-  page was drafted in, so the heading currently paraphrases the topic as
-  described in your individual study plan.
--->
-
-### Machine Learning for PROTAC Decomposition and Enhanced Degradation Prediction
-
-**Ranxuan Zhang** — Chalmers University of Technology, defended June 2025.
-Co-supervised with **Eva Nittinger** and **Christian Tyrchan** (AstraZeneca R&D
-Gothenburg); examiner **Rocío Mercado**.
-
-Learning to split a PROTAC into its E3 ligand, linker and warhead, and using that
-decomposition to improve degradation activity prediction. The work fed directly
-into [PROTAC-Splitter](/publication/2026-02-20-PROTAC-Splitter), published in the
-*Journal of Cheminformatics*, on which Ranxuan is a co-author.
+{% assign theses = site.teaching | sort: "date" | reverse %}
+{% for post in theses %}
+  {% include archive-single.html %}
+{% endfor %}
 
 ## Teaching
 
