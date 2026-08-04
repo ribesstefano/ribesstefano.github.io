@@ -10,12 +10,29 @@
     <a href="/teaching/2026-06-01-synthesizability-scores-protac">MSc thesis on PROTAC
     synthesizability</a>.
 
+- date: "June 2026"
+  body: >-
+    Felix and Alex successfully defended their MSc thesis on generative modeling for PROTACs,
+    congrats! 🎉 You can read more about it <a href="/supervision/">here</a> and
+    here the <a href="https://odr.chalmers.se/items/65276979-1afe-41d0-8f72-bcc7fbd66c88">full thesis</a>.
+
+- date: "June 2026"
+  body: >-
+    Andrea and Tingting successfully defended their MSc thesis on assessing PROTAC synthesizability,
+    congrats! 🎉 You can read more about it <a href="/supervision/">here</a>.
+
 - date: "May 2026"
   body: >-
     <a href="/publication/2026-05-19-TACK">TACK</a> was accepted at
     <strong>KDD 2026</strong> (AI for Science Track) — a 3,514-PROTAC dataset and a
     statistical benchmark of degradation activity models. Data on
     <a href="https://huggingface.co/datasets/ailab-bio/TACK">Hugging Face</a>.
+
+- date: "May 2026"
+  body: >-
+    Submitted <strong>QT-Net: Rethinking Evaluation of AI Models in Atomic
+    Chemical Space</strong> to <strong>NeurIPS 2026</strong>. Preprint on
+    <a href="https://arxiv.org/abs/2605.10458">arXiv</a>.
 
 - date: "March 2026"
   body: >-

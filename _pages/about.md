@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="intro-hero" markdown="1">
 
-I build open-source machine learning tools for **targeted protein degradation**.
+I build open-source machine learning tools for **targeted protein degradation** and (sometimes) for **materials** property prediction and data extraction.
 
 I'm a [PhD student](https://www.chalmers.se/en/persons/ribes/) in the
 [AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio) at Chalmers
@@ -27,7 +27,7 @@ always happy to talk about new ideas and collaborations —
 
 ## News
 
-{% include news.html limit=4 %}
+{% include news.html limit=6 %}
 
 [See all news](/news/).
 
