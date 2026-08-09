@@ -12,11 +12,7 @@ redirect_from:
 I build open-source machine learning tools for **targeted protein degradation** and (sometimes) for **materials** property prediction and data extraction.
 
 I'm a [PhD student](https://www.chalmers.se/en/persons/ribes/) in the
-[AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio) at Chalmers
-University of Technology in Gothenburg, Sweden, working at the intersection of AI,
-computational chemistry and drug discovery. Most of my work is about PROTACs: how to
-represent them, how to predict what they will degrade, and how to make the data and
-models behind those predictions genuinely reusable by other groups.
+[AI Laboratory for Molecular Engineering (AIME)](https://ailab.bio) led by [Rocío Mercado](https://rociomer.github.io), at Chalmers University of Technology in Gothenburg, Sweden, working at the intersection of AI, computational chemistry and drug discovery. Most of my work is about PROTACs: how to represent them, how to predict what they will degrade, and how to make the data and models behind those predictions genuinely reusable by other groups.
 
 My path here ran from computer engineering through FPGA accelerators and two years
 in the aerospace sector, before an internship at AstraZeneca turned into a PhD. I'm
