@@ -2,6 +2,14 @@
 # Newest first. `date` is free text so you can write "May 2026" or a full date.
 # `body` accepts inline HTML (links are fine).
 
+- date: "August 2026"
+  body: >-
+    <strong>LeMat-Synth v2</strong> is out on <a href="https://arxiv.org/abs/2510.26824">arXiv</a>,
+    a multi-modal LLM/VLM toolbox that extracts synthesis protocols from scientific literature,
+    together with a 58K-procedure inorganic materials synthesis dataset on
+    <a href="https://huggingface.co/datasets/LeMaterial/LeMat-Synth">Hugging Face</a>.
+    You can try it out on <a href="https://github.com/LeMaterial/lematerial-llm-synthesis">GitHub</a>.
+
 - date: "June 2026"
   body: >-
     Presented a <a href="/talks/">TACK poster</a> at the Machine
