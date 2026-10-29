@@ -1,6 +1,11 @@
 # Short "what's new" entries shown on the home page.
 # Newest first. `date` is free text so you can write "May 2026" or a full date.
 # `body` accepts inline HTML (links are fine).
+- date: "September 2026"
+  body: >-
+    <strong>RetroTAC: Learning Route-Derived Synthetic Accessibility for PROTACs</strong> is out on <a href="https://arxiv.org/abs/2610.13639">arXiv</a>,
+    a fast open-source ensemble model to predict PROTAC synthesizability.
+    You can try it out on <a href="https://github.com/ribesstefano/RetroTAC">GitHub</a>.
 
 - date: "August 2026"
   body: >-
